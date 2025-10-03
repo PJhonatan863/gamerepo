@@ -23,6 +23,15 @@
             font-weight: bold;
             transition: all 0.3s ease-in-out;
         }
+        a{
+            color:white;
+            
+        }
+         a:hover {
+          color: orangered;
+          text-decoration: none;
+          transition: 0.5s;
+        }
 
 
 
@@ -45,20 +54,30 @@
             </div>
 
         </div>
+        <div class="row justify-content-center mt-5">
+            <a  href="./O_lobo_e_a_ovelha.png">Desafio</a>
+        </div>
 
         <script>
             // Vetor com 20 perguntas
             const perguntas = [
-                "O que significa a sigla WWW?",
-                "Qual empresa é do youtube?",
-                "Quantos jogos tem no site?", // World Wide Web
-                "Quantas categorias tem no site?",
-                "Qual o estilo de design do site", //Minimalismo
+                "O que significa a sigla WWW?", //World Wide Web
+                "Qual empresa é do youtube?", // google
+                "Quantos jogos tem no site gamerepo?", // 12
+                "Quantas categorias tem no site gamerepo?", // 6
                 "Que criatura pela manhã tem quatro pernas, ao meio-dia tem duas e à tarde tem três?", //o homem
                 "Dois pais e dois filhos voltam do supermercado. Mas, quando chegam em casa, apenas três pessoas saem do carro. Como isso é possível??", // o Avô, pai, filho
-
-            ];
-
+                "Se um trem elétrico está se movendo para o norte e os ventos estão soprando para leste, para qual direção vai a fumaça?", //Nenhuma trem elétrico não solta fumaça
+                "Um homem está dirigindo e vê três portas: uma porta de diamante, uma porta de rubi e uma porta esmeralda. Qual porta ele abre primeiro?", //a porta do carro
+                "Cinco irmãs estão reunidas em um quarto. Maria está fazendo tricô, Fernanda está desenhando, Luíza está jogando xadrez e Lúcia está dormindo. O que a quinta irmã está fazendo?", //A quinta está jogando xadrez com a Luíza
+                "O que é o que é: precisa ser alimentado para viver, mas morre se recebe água?", //O fogo
+                "Qual é o principal segmento da loja Allora?",//Eletrônico
+                "Qual a cor predominante do site Allora?",//Preto e branco
+                "Qual o diferencial da loja Allora?",//Preço acessível, qualidade, ecervo de livros
+                "Quais os serviços/produtos que a Kids Festas oferece?",//produtos de festa
+                "Quais são as redes sociais do Kids Festas?",//Instagram e face
+                "QUal o público do Kids Festas?"//público infantil
+        ]
 
         const cardText = document.getElementById("card-text");
         const card = cardText.parentElement;
